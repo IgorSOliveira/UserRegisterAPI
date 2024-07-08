@@ -5,10 +5,10 @@ Este projeto é uma API construída utilizando Java, Spring Boot e MySQL como ba
 Esta Api oferece os seguintes endpoints:
 
 *GET USERS*
-markdown
+```markdown
 GET /users - Retorna a lista com todos os usuários.
-
-json
+```
+```json
 [
     {
         "id": 1,
@@ -23,3 +23,4 @@ json
         "password": "455",
     }
 ]
+```

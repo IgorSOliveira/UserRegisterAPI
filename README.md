@@ -13,14 +13,27 @@ GET /users - Retorna a lista com todos os usuários.
     {
         "id": 1,
         "username": "Igor"
-        "email": "pedro@hotmail.com",
+        "email": "igor@example.com",
         "password": "123",
     },
     {
         "id": 4,
         "username": "Pedro"
-        "email": "pedro@gmail.com",
+        "email": "pedro@example.com",
         "password": "455",
     }
+]
+```
+*POST USERS*
+```markdown
+POST /users - Registra um novo usuário no banco.
+```
+```json
+[
+    {
+        "username": "Marcos"
+        "email": "marcos@example.com",
+        "password": "123",
+    },
 ]
 ```

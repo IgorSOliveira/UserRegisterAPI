@@ -37,3 +37,5 @@ POST /users - Registra um novo usuário no banco.
     },
 ]
 ```
+## Database
+Este projeto utiliza o MySQL como o banco de dados. 
